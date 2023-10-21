@@ -1,14 +1,10 @@
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+
 
 body{
     font-size: 100%;
-    background: linear-gradient(68.15deg, #2f2325,#8e5d52 85.61%);
+    background-image: url(fundo.jpg);
+    
 }
 
 .cabecalho{
@@ -185,3 +181,4 @@ color:chocolate
     float: baseline;
 
  }
+ 
