@@ -17,39 +17,38 @@
     </header>
 
     <script>
+      function nameReturn() {
+        var stringName = document.getElementById("name").value;
 
-        function nameReturn(){
-          var stringName = document.getElementById("name").value;
-
-          if(stringName == "" || stringName == null)
-          {
-            alert("Insira ao menos o seu nome, por favor");
-          }
-          else{
-            alert(`Obrigado por entrar em contato ${stringName}`)
-          }          
+        if (stringName == "" || stringName == null) {
+          alert("Insira ao menos o seu nome, por favor");
+        } else {
+          alert(`obrigado por entrar em contato ${stringName}`);
         }
-
+      }
     </script>
     <main>
-      <hr>
-        <div class="container">
-            <div class="form">
-                <p>FORMULARIO</p><hr>
-                <label for="">NOME:</label>
-                <input type="text" class="inputText" id="name" placeholder="Insira seu nome completo">
-                
-                <br><br>
-                <label for="">EMAIL: </label>
-                <input type="text" placeholder="Insira seu nome email"><br><br>
-                <label for="" id="text">INSIRA UMA MENSAGEM: </label><br>
-                <textarea name="" id="" cols="30" rows="10"></textarea><br>
-                <button onclick="nameReturn()">ENVIAR</button>
-            </div>
+      <hr />
+      <div class="container">
+        <div class="form">
+          <p>FORMULARIO</p>
+          <hr />
+          <label for="">NOME:</label>
+          <input
+            type="text"
+            class="inputText"
+            id="name"
+            placeholder="Insira seu nome completo"
+          />
+
+          <br /><br />
+          <label for="">EMAIL: </label>
+          <input type="text" placeholder="Insira seu nome email" /><br /><br />
+          <label for="" id="text">INSIRA UMA MENSAGEM: </label><br />
+          <textarea name="" id="" cols="30" rows="10"></textarea><br />
+          <button onclick="nameReturn()">ENVIAR</button>
         </div>
+      </div>
     </main>
   </body>
-
-
-
 </html>
