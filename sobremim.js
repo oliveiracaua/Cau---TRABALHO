@@ -1,3 +1,0 @@
-function sobre(){
-    alert("ola");
-}
